@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gr"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+
+    android:paddingRight="5dp"
+    tools:context="com.rd_quize.me.quize.MainActivity">
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:background="@drawable/share"
+        android:onClick="share" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/quize_b"
+        android:fontFamily="@font/mfont"
+        android:onClick="quize"
+        android:text="Quize"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/flag_b"
+        android:fontFamily="@font/mfont"
+        android:onClick="coming"
+        android:text="Flags"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_b"
+        android:fontFamily="@font/mfont"
+        android:onClick="coming"
+        android:text="Images Quize"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</LinearLayout>

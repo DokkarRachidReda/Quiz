@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#996655"
+    android:orientation="vertical"
+    tools:context="com.rd_quize.me.quize.Quize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:gravity="left"
+            android:onClick="helpBack" />
+
+        <TextView
+            android:id="@+id/nb"
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/coin"
+            android:fontFamily="@font/cr"
+            android:gravity="center"
+            android:text="   100"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/next"
+            android:gravity="right"
+            android:onClick="helpNext"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/quest_backg"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/qq"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/sk"
+            android:paddingTop="15dp"
+            android:text="80s Films: The paean to late nights and teens in the 1950s"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/btn_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ans"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/mfont"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/btn_backg"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:paddingLeft="3dp">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:paddingLeft="3dp">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:paddingLeft="3dp">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/backgray"
+                    android:fontFamily="@font/mfont"
+                    android:onClick="slct"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2333826661674903/4259710802">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
